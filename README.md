@@ -3,7 +3,8 @@ It's a digital circuit of 8X8 RAM implemented on proteus professional software. 
 
 The whole circuit of the 8X8 RAM looks like.
 
-![Screenshot_20230607_095359](https://github.com/9389lalit/8X8RAM/assets/99964550/2d1105a8-8a2e-424a-84b1-295280dc3a91)
+![Screenshot_20230607_102102](https://github.com/9389lalit/8X8RAM/assets/99964550/e0e7399d-84a0-4cf7-8b4c-52bd923be106)
+
 
 # 1 bit Logic of Ram circuit
 we have here 3 input pins 1. i/p 2. select 3. read/write and one output and a SR flipflop.
