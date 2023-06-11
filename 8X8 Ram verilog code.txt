@@ -7,10 +7,9 @@ module single_port_ram(
   input clk, //clk
   output [7:0] q //output data
 );
-  
   reg [7:0] ram [0:7]; //8*8 bit ram
   reg [2:0] addr_reg; //address register
- 
+
  // using behaviroul modelling for the design module
   always @ (posedge clk)
     begin
@@ -24,7 +23,6 @@ module single_port_ram(
   assign q = ram[addr_reg];
   
 endmodule
-
 
 // Single Port RAM testbench
 
@@ -68,7 +66,7 @@ module single_port_ram_tb;
        data = 8'h04;
       addr = 3'd3;
       #10;
-      
+   
       data = 8'h05;
       addr = 3'd4;
       #10;
@@ -93,22 +91,18 @@ module single_port_ram_tb;
       addr = 3'd0;
       
       #10;
-           
-	 
+       
       addr = 3'd1;     
       #10;
-      
- 
+     
       addr = 3'd2;     
       #10;
-      
-      
+     
       addr = 3'd3;
       #10;
       
       addr = 3'd4;
       #10;
-      
       
       addr = 3'd5;
       #10;
@@ -116,11 +110,9 @@ module single_port_ram_tb;
       addr = 3'd6;
       #10;
       
-         
       addr = 3'd7;
       #10;
       
-
       // writing the data
       
       data = 8'h04;
@@ -138,13 +130,11 @@ module single_port_ram_tb;
       #10
          data = 8'h01;
       addr = 3'd5;
-      
       #10
       
       // reading the data
       we = 1'b0;
       #10;
-      
       addr = 3'd5;
       #10;
       addr = 3'd7;
