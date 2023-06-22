@@ -26,10 +26,10 @@ There are  64 blocks of 1 bit logic circuit
 ![image](https://github.com/9389lalit/8X8RAM/assets/99964550/8cddd620-e118-4b05-ba4c-665bd50f518d)
 
 
+# verilog code
+I have also added the code in verilog HDL for the design of 8X8 Ram.
 
-
-
-
+![image](https://github.com/9389lalit/8X8RAM/assets/99964550/a7e38967-ba88-44d9-a001-aa66405b9a10)
 
 To use this circuit just download and use it on proteous 8.13 and above versions and to read the value use the Read/Write=1 and for the write use Read/Write =0.
 
